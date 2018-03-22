@@ -1,0 +1,557 @@
+{
+    
+    "label": "User generated manifest",
+    "attribution": "Incunabula",
+    "logo": "https://www.eemec.med.ed.ac.uk/img/logo-white.png",
+    "@id": "https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifests/user/738d6150cd9de6afc3bac2a5.json",
+    "related": "https://images.is.ed.ac.uk/luna/servlet/detail/UoEgal~2~2~42086~103003",
+    "sequences": [
+                  {
+                  "@type": "sc:Sequence",
+                  "viewingHint": "individual",
+                  "canvases": [
+                               {
+                               "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEgal~2~2~42086~103003/canvas/c1",
+                               "label": "Biblia (German), f.40r, detail",
+                               "height": 4590,
+                               "width": 6936,
+                               "description": "",
+                               "images": [
+                                          {
+                                          "motivation": "sc:painting",
+                                          "on": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEgal~2~2~42086~103003/canvas/c1",
+                                          "resource": {
+                                          "format": "image/jpeg",
+                                          "service": {
+                                          "profile": "http://iiif.io/api/image/2/level2.json",
+                                          "@context": "http://iiif.io/api/image/2/context.json",
+                                          "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~2~2~42086~103003"
+                                          },
+                                          "height": 4590,
+                                          "width": 6936,
+                                          "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~2~2~42086~103003/full/!1024,1024/0/default.jpg",
+                                          "@type": "dctypes:Image"
+                                          },
+                                          "@type": "oa:Annotation"
+                                          }
+                                          ],
+                               "metadata": [
+                                            {
+                                            "label": "Work Record ID",
+                                            "value": "<span>0022378</span>"
+                                            },
+                                            {
+                                            "label": "Licence",
+                                            "value": "<span><a href = \"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\"><img src = \"http://lac-luna-live4.is.ed.ac.uk:8181/graphics/by.jpg\"/></a></span>"
+                                            },
+                                            {
+                                            "label": "Shelfmark",
+                                            "value": "<span>Inc.45.2</span>"
+                                            },
+                                            {
+                                            "label": "Holding Institution",
+                                            "value": "<span>University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Title",
+                                            "value": "<span>Biblia (German)</span>"
+                                            },
+                                            {
+                                            "label": "Subset Index",
+                                            "value": "<span>f.40r, detail</span>"
+                                            },
+                                            {
+                                            "label": "Creator",
+                                            "value": "<span>Koberger</span>"
+                                            },
+                                            {
+                                            "label": "Creator Role",
+                                            "value": "<span>Author</span>"
+                                            },
+                                            {
+                                            "label": "Description",
+                                            "value": "<span>Coloured woodcut image depicting the gathering of manna from heaven in Anton Koberger's German bible. Koberger printed the 9th of 18 High German bibles printed before Luther in his shop in Nuremberg on 17 February 1483. The print run is estimated to have been between 1000-1500 copies, of which approximately 150 are still in existence today. Koberger's bibles are known for their splendour and vibrant woodcuts, the majority of which were coloured and rubricated with Lombard capitals in Koberger's shop before sale. 82 of the 109 illustrations were recycled from Henrich Quentell's Low German bible printed in Cologne is 1478. These woodcuts are predominantly in the Old Testament and depict simplified landscapes coloured in a way that approximated medieval miniatures. Anton Koberger (c.1440-1515) was a German goldsmith, printer and publisher working out of Nuremberg. He was one of the most prolific printers of his time and frequently absorbed his competition. Koberger is known for his printing of the 1483 German bible, his Latin bibles, and the Nuremberg Chronicle. At its peak Koberger's shop had 24 presses in operation with close to 100 workers. Koberger also partook in international business, often having his books printed in the places that they were to be sold in order to cut down on shipping costs. It is also worth noting that Koberger was the Godfather of renowned artist Albrecht Durer, who completed his apprenticeship in Koberger's shop and published at least one book on Koberger's presses.</span>"
+                                            },
+                                            {
+                                            "label": "Location",
+                                            "value": "<span>Centre for Research Collections/Main Library</span>"
+                                            },
+                                            {
+                                            "label": "Subject Person",
+                                            "value": "<span>Quentell, Henrich</span>"
+                                            },
+                                            {
+                                            "label": "Subject Person",
+                                            "value": "<span>Koberger, Anton</span>"
+                                            },
+                                            {
+                                            "label": "Subject Person",
+                                            "value": "<span>Durer, Albrecht</span>"
+                                            },
+                                            {
+                                            "label": "Subject Category",
+                                            "value": "<span>Christianity</span>"
+                                            },
+                                            {
+                                            "label": "Subject Category",
+                                            "value": "<span>Archives</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Title",
+                                            "value": "<span>Biblia (German)</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Page No",
+                                            "value": "<span>f.40r, detail</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Notes",
+                                            "value": "<span>Subset/Host Work</span>"
+                                            },
+                                            {
+                                            "label": "Rights Statement",
+                                            "value": "<span>© The University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>1483</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Albrecht Durer</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Fifteenth Century</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>German Bible</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Henrich Quentell</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Incunabula</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Nuremberg</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Woodcut</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Manna From Heaven</span>"
+                                            },
+                                            {
+                                            "label": "Repro File Type",
+                                            "value": "<span>Cropped Tiff</span>"
+                                            },
+                                            {
+                                            "label": "Repro File Size (bytes)",
+                                            "value": "<span>95541144</span>"
+                                            },
+                                            {
+                                            "label": "Repro Title",
+                                            "value": "<span>Biblia (German), f.40r, detail</span>"
+                                            },
+                                            {
+                                            "label": "Repro Rights Statement",
+                                            "value": "<span>© The University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Repro Capture Date",
+                                            "value": "<span>2010:12:07 14:31:22</span>"
+                                            }
+                                            ],
+                               "thumbnail": {
+                               "@id": "https://images.is.ed.ac.uk/MediaManager/srvr?mediafile=/Size0/UoEgal-2-NA/1020/0022378c.jpg"
+                               },
+                               "@type": "sc:Canvas"
+                               },
+                               {
+                               "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEgal~2~2~42099~103004/canvas/c1",
+                               "label": "Biblia (German), f.577r, detail",
+                               "height": 4510,
+                               "width": 6896,
+                               "description": "",
+                               "images": [
+                                          {
+                                          "motivation": "sc:painting",
+                                          "on": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEgal~2~2~42099~103004/canvas/c1",
+                                          "resource": {
+                                          "format": "image/jpeg",
+                                          "service": {
+                                          "profile": "http://iiif.io/api/image/2/level2.json",
+                                          "@context": "http://iiif.io/api/image/2/context.json",
+                                          "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~2~2~42099~103004"
+                                          },
+                                          "height": 4510,
+                                          "width": 6896,
+                                          "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~2~2~42099~103004/full/!1024,1024/0/default.jpg",
+                                          "@type": "dctypes:Image"
+                                          },
+                                          "@type": "oa:Annotation"
+                                          }
+                                          ],
+                               "metadata": [
+                                            {
+                                            "label": "Work Record ID",
+                                            "value": "<span>0022379</span>"
+                                            },
+                                            {
+                                            "label": "Licence",
+                                            "value": "<span><a href = \"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\"><img src = \"http://lac-luna-live4.is.ed.ac.uk:8181/graphics/by.jpg\"/></a></span>"
+                                            },
+                                            {
+                                            "label": "Shelfmark",
+                                            "value": "<span>Inc.45.2</span>"
+                                            },
+                                            {
+                                            "label": "Holding Institution",
+                                            "value": "<span>University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Title",
+                                            "value": "<span>Biblia (German)</span>"
+                                            },
+                                            {
+                                            "label": "Subset Index",
+                                            "value": "<span>f.577r, detail</span>"
+                                            },
+                                            {
+                                            "label": "Creator",
+                                            "value": "<span>Koberger</span>"
+                                            },
+                                            {
+                                            "label": "Creator Role",
+                                            "value": "<span>Author</span>"
+                                            },
+                                            {
+                                            "label": "Description",
+                                            "value": "<span>Coloured woodcut image of the four horseman of the apocalypse as printed in Anton Koberger's German bible. Koberger printed the 9th of 18 High German bibles printed before Luther in his shop in Nuremberg on 17 February 1483. The print run is estimated to have been between 1000-1500 copies, of which approximately 150 are still in existence today. Koberger's bibles are known for their splendour and vibrant woodcuts, the majority of which were coloured and rubricated with Lombard capitals in Koberger's shop before sale. 82 of the 109 illustrations were recycled from Henrich Quentell's Low German bible printed in Cologne is 1478. These woodcuts are predominantly in the Old Testament and depict simplified landscapes coloured in a way that approximated medieval miniatures. Anton Koberger (c.1440-1515) was a German goldsmith, printer and publisher working out of Nuremberg. He was one of the most prolific printers of his time and frequently absorbed his competition. Koberger is known for his printing of the 1483 German bible, his Latin bibles, and the Nuremberg Chronicle. At its peak Koberger's shop had 24 presses in operation with close to 100 workers. Koberger also partook in international business, often having his books printed in the places that they were to be sold in order to cut down on shipping costs. It is also worth noting that Koberger was the Godfather of renowned artist Albrecht Durer, who completed his apprenticeship in Koberger's shop and published at least one book on Koberger's presses.</span>"
+                                            },
+                                            {
+                                            "label": "Location",
+                                            "value": "<span>Centre for Research Collections/Main Library</span>"
+                                            },
+                                            {
+                                            "label": "Subject Person",
+                                            "value": "<span>Koberger, Anton</span>"
+                                            },
+                                            {
+                                            "label": "Subject Person",
+                                            "value": "<span>Durer, Albrecht</span>"
+                                            },
+                                            {
+                                            "label": "Subject Category",
+                                            "value": "<span>Christianity</span>"
+                                            },
+                                            {
+                                            "label": "Subject Category",
+                                            "value": "<span>Archives</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Title",
+                                            "value": "<span>Biblia (German)</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Page No",
+                                            "value": "<span>f.577r, detail</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Notes",
+                                            "value": "<span>Subset/Host Work</span>"
+                                            },
+                                            {
+                                            "label": "Rights Statement",
+                                            "value": "<span>© The University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Christianity</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Archives</span>"
+                                            },
+                                            {
+                                            "label": "Repro File Type",
+                                            "value": "<span>Cropped Tiff</span>"
+                                            },
+                                            {
+                                            "label": "Repro File Size (bytes)",
+                                            "value": "<span>93337612</span>"
+                                            },
+                                            {
+                                            "label": "Repro Title",
+                                            "value": "<span>Biblia (German), f.577r, detail</span>"
+                                            },
+                                            {
+                                            "label": "Repro Rights Statement",
+                                            "value": "<span>© The University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Repro Capture Date",
+                                            "value": "<span>2010:12:07 14:31:22</span>"
+                                            }
+                                            ],
+                               "thumbnail": {
+                               "@id": "https://images.is.ed.ac.uk/MediaManager/srvr?mediafile=/Size0/UoEgal-2-NA/1020/0022379c.jpg"
+                               },
+                               "@type": "sc:Canvas"
+                               },
+                               {
+                               "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEgal~2~2~42111~103005/canvas/c1",
+                               "label": "Biblia (German), f.494v, detail",
+                               "height": 4358,
+                               "width": 6712,
+                               "description": "",
+                               "images": [
+                                          {
+                                          "motivation": "sc:painting",
+                                          "on": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEgal~2~2~42111~103005/canvas/c1",
+                                          "resource": {
+                                          "format": "image/jpeg",
+                                          "service": {
+                                          "profile": "http://iiif.io/api/image/2/level2.json",
+                                          "@context": "http://iiif.io/api/image/2/context.json",
+                                          "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~2~2~42111~103005"
+                                          },
+                                          "height": 4358,
+                                          "width": 6712,
+                                          "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~2~2~42111~103005/full/!1024,1024/0/default.jpg",
+                                          "@type": "dctypes:Image"
+                                          },
+                                          "@type": "oa:Annotation"
+                                          }
+                                          ],
+                               "metadata": [
+                                            {
+                                            "label": "Work Record ID",
+                                            "value": "<span>0022380</span>"
+                                            },
+                                            {
+                                            "label": "Licence",
+                                            "value": "<span><a href = \"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\"><img src = \"http://lac-luna-live4.is.ed.ac.uk:8181/graphics/by.jpg\"/></a></span>"
+                                            },
+                                            {
+                                            "label": "Shelfmark",
+                                            "value": "<span>Inc.45.2</span>"
+                                            },
+                                            {
+                                            "label": "Holding Institution",
+                                            "value": "<span>University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Title",
+                                            "value": "<span>Biblia (German)</span>"
+                                            },
+                                            {
+                                            "label": "Subset Index",
+                                            "value": "<span>f.494v, detail</span>"
+                                            },
+                                            {
+                                            "label": "Creator",
+                                            "value": "<span>Koberger</span>"
+                                            },
+                                            {
+                                            "label": "Creator Role",
+                                            "value": "<span>Author</span>"
+                                            },
+                                            {
+                                            "label": "Location",
+                                            "value": "<span>Centre for Research Collections/Main Library</span>"
+                                            },
+                                            {
+                                            "label": "Subject Category",
+                                            "value": "<span>Christianity</span>"
+                                            },
+                                            {
+                                            "label": "Subject Category",
+                                            "value": "<span>Archives</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Title",
+                                            "value": "<span>Biblia (German)</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Page No",
+                                            "value": "<span>f.494v, detail</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Notes",
+                                            "value": "<span>Subset/Host Work</span>"
+                                            },
+                                            {
+                                            "label": "Rights Statement",
+                                            "value": "<span>© The University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Christianity</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Archives</span>"
+                                            },
+                                            {
+                                            "label": "Repro File Type",
+                                            "value": "<span>Cropped Tiff</span>"
+                                            },
+                                            {
+                                            "label": "Repro File Size (bytes)",
+                                            "value": "<span>87786592</span>"
+                                            },
+                                            {
+                                            "label": "Repro Title",
+                                            "value": "<span>Biblia (German), f.494v, detail</span>"
+                                            },
+                                            {
+                                            "label": "Repro Rights Statement",
+                                            "value": "<span>© The University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Repro Capture Date",
+                                            "value": "<span>2010:12:07 14:31:22</span>"
+                                            }
+                                            ],
+                               "thumbnail": {
+                               "@id": "https://images.is.ed.ac.uk/MediaManager/srvr?mediafile=/Size0/UoEgal-2-NA/1020/0022380c.jpg"
+                               },
+                               "@type": "sc:Canvas"
+                               },
+                               {
+                               "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEgal~2~2~42111~103005/canvas/c1",
+                               "label": "Biblia (German), f.494v, detail",
+                               "height": 4358,
+                               "width": 6712,
+                               "description": "",
+                               "images": [
+                                          {
+                                          "motivation": "sc:painting",
+                                          "on": "https://images.is.ed.ac.uk/luna/servlet/iiif/m/UoEgal~2~2~42111~103005/canvas/c1",
+                                          "resource": {
+                                          "format": "image/jpeg",
+                                          "service": {
+                                          "profile": "http://iiif.io/api/image/2/level2.json",
+                                          "@context": "http://iiif.io/api/image/2/context.json",
+                                          "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~2~2~42111~103005"
+                                          },
+                                          "height": 4358,
+                                          "width": 6712,
+                                          "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~2~2~42111~103005/full/!1024,1024/0/default.jpg",
+                                          "@type": "dctypes:Image"
+                                          },
+                                          "@type": "oa:Annotation"
+                                          }
+                                          ],
+                               "metadata": [
+                                            {
+                                            "label": "Work Record ID",
+                                            "value": "<span>0022380</span>"
+                                            },
+                                            {
+                                            "label": "Licence",
+                                            "value": "<span><a href = \"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\"><img src = \"http://lac-luna-live4.is.ed.ac.uk:8181/graphics/by.jpg\"/></a></span>"
+                                            },
+                                            {
+                                            "label": "Shelfmark",
+                                            "value": "<span>Inc.45.2</span>"
+                                            },
+                                            {
+                                            "label": "Holding Institution",
+                                            "value": "<span>University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Title",
+                                            "value": "<span>Biblia (German)</span>"
+                                            },
+                                            {
+                                            "label": "Subset Index",
+                                            "value": "<span>f.494v, detail</span>"
+                                            },
+                                            {
+                                            "label": "Creator",
+                                            "value": "<span>Koberger</span>"
+                                            },
+                                            {
+                                            "label": "Creator Role",
+                                            "value": "<span>Author</span>"
+                                            },
+                                            {
+                                            "label": "Location",
+                                            "value": "<span>Centre for Research Collections/Main Library</span>"
+                                            },
+                                            {
+                                            "label": "Subject Category",
+                                            "value": "<span>Christianity</span>"
+                                            },
+                                            {
+                                            "label": "Subject Category",
+                                            "value": "<span>Archives</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Title",
+                                            "value": "<span>Biblia (German)</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Page No",
+                                            "value": "<span>f.494v, detail</span>"
+                                            },
+                                            {
+                                            "label": "Related Work Notes",
+                                            "value": "<span>Subset/Host Work</span>"
+                                            },
+                                            {
+                                            "label": "Rights Statement",
+                                            "value": "<span>© The University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Christianity</span>"
+                                            },
+                                            {
+                                            "label": "Tag",
+                                            "value": "<span>Archives</span>"
+                                            },
+                                            {
+                                            "label": "Repro File Type",
+                                            "value": "<span>Cropped Tiff</span>"
+                                            },
+                                            {
+                                            "label": "Repro File Size (bytes)",
+                                            "value": "<span>87786592</span>"
+                                            },
+                                            {
+                                            "label": "Repro Title",
+                                            "value": "<span>Biblia (German), f.494v, detail</span>"
+                                            },
+                                            {
+                                            "label": "Repro Rights Statement",
+                                            "value": "<span>© The University of Edinburgh</span>"
+                                            },
+                                            {
+                                            "label": "Repro Capture Date",
+                                            "value": "<span>2010:12:07 14:31:22</span>"
+                                            }
+                                            ],
+                               "thumbnail": {
+                               "@id": "https://images.is.ed.ac.uk/MediaManager/srvr?mediafile=/Size0/UoEgal-2-NA/1020/0022380c.jpg"
+                               },
+                               "@type": "sc:Canvas"
+                               }
+                               ]
+                  }
+                  ],
+    "@type": "sc:Manifest",
+    "seeAlso": null,
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+    
+}
+
