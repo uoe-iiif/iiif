@@ -1,35 +1,24 @@
 ### Welcome to IIIF Deep Dive
 
 
-##Construct your own!
+#Construct your own!
 - Go to http://images.is.ed.ac.uk/luna/servlet
 - Have a look for an image. Any image.
-- Example:
-
-http://images.is.ed.ac.uk/luna/servlet/detail/UoEcar~4~4~52491~102838:Calotypes-and- Portraits,-Cal- 7-23
-– Strip off the text at the end:
-http://images.is.ed.ac.uk/luna/servlet/detail/UoEcar~4~4~52491~102838
-– Swap ‘detail’ for ‘iiif’:
-http://images.is.ed.ac.uk/luna/servlet/iiif/UoEcar~4~4~52491~102838
-– Add the necessary arguments (now we can play with it):
-http://images.is.ed.ac.uk/luna/servlet/iiif/UoEcar~4~4~52491~102838/full/full/0/default.jpg
-– See the json:
-http://images.is.ed.ac.uk/luna/servlet/iiif/UoEcar~4~4~52491~102838/info.json
+- Example: http://images.is.ed.ac.uk/luna/servlet/detail/UoEcar~4~4~52491~102838:Calotypes-and- Portraits,-Cal- 7-23
+– Strip off the text at the end: http://images.is.ed.ac.uk/luna/servlet/detail/UoEcar~4~4~52491~102838
+– Swap ‘detail’ for ‘iiif’: http://images.is.ed.ac.uk/luna/servlet/iiif/UoEcar~4~4~52491~102838
+– Add the necessary arguments (now we can play with it): http://images.is.ed.ac.uk/luna/servlet/iiif/UoEcar~4~4~52491~102838/full/full/0/default.jpg
+– See the json: http://images.is.ed.ac.uk/luna/servlet/iiif/UoEcar~4~4~52491~102838/info.json
 
 ##How do I work out co-ordinates?
-- Useful tool:
-http://dms-data.stanford.edu/data/iiif-tools/cropper/
-- 
+- Useful tool: http://dms-data.stanford.edu/data/iiif-tools/cropper/
 
 ##OpenSeaDragon in a webpage?
-
 - Create a simple webpage with html markup
-- Typical syntax- see https://uoe-iiif/iiif/openseadragon.html
-
+- Typical syntax- see https://uoe-iiif/iiif/os.html
 
 ##Manifests
-- Try out this manifest builder:
-https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifestbuild.php
+- Try out this manifest builder: https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifestbuild.php
 
 ##Build from scratch?
 - Take the manifest you've just created
