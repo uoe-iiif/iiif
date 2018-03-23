@@ -19,10 +19,21 @@
 * Useful tool: 
 `http://dms-data.stanford.edu/data/iiif-tools/cropper/`
 
+#### Use Git repository
+* If you have a git repo of your own, we will invite you to collaborate
+* Fork `https://github.com/uoe-iiif/iiif`
+* Clone the repo `git clone https://github.com/uoe-iiif/iiif.git`
+* Make changes (adding manifest or openseadragon test)
+* `git add --all`
+* `git commit -m "Comment"`
+* `git push origin master`
+* Pull request from your own repo into main repo
+
 #### OpenSeaDragon in a webpage?
 * Create a simple webpage with html markup
-* Typical syntax- see 
-`https://uoe-iiif/iiif/os/sr-test.html`
+* Copy os/sr-test.html
+* Elements described in 
+`http://iiif.io/api/image/2.1/`
 
 #### Manifests
 * Try out this manifest builder: 
@@ -32,6 +43,8 @@
 * Take the manifest you've just created
 * Find a LUNA manifest (syntax: 
 `https://images.is.ed.ac.uk/luna/servlet/iiif/m/[identifier]/manifest`
+* Elements described in 
+`http://iiif.io/api/image/2.1/`
 * Copy out the canvas section replacing the canvas here
 * We'll go through each element explaining what it does
 * Put the manifest up into the git repository
@@ -44,3 +57,6 @@
 * Copy the manifest URL and append it to: 
 `https://librarylabs.ed.ac.uk/iiif/uv?manifest=`
 
+#### IIIF Server from Scratch
+* See the Cantaloupe website
+`https://medusa-project.github.io/cantaloupe/`
