@@ -3,7 +3,8 @@
 #### Construct your own!
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
 * Have a look for an image. Any image.
-* Example:<https://images.is.ed.ac.uk/luna/servlet/detail/UoEcar~4~4~52491~102838:Calotypes-and- Portraits,-Cal- 7-23>
+* Example:
+<https://images.is.ed.ac.uk/luna/servlet/detail/UoEcar~4~4~52491~102838:Calotypes-and- Portraits,-Cal- 7-23>
 * Strip off the text at the end: 
 <https://images.is.ed.ac.uk/luna/servlet/detail/UoEcar~4~4~52491~102838>
 * Swap ‘detail’ for ‘iiif’: 
@@ -30,8 +31,8 @@
 #### OpenSeaDragon in a webpage?
 * Create a simple webpage with html markup
 * Copy os/sr-test.html
-* Elements described in 
-<http://iiif.io/api/image/2.1/>
+* IIIF Elements described in <http://iiif.io/api/image/2.1/#image-information>
+* OS Elements described in <https://openseadragon.github.io>
 
 #### Manifests
 * Try out this manifest builder: 
@@ -41,8 +42,7 @@
 * Take the manifest you've just created
 * Find a LUNA manifest (syntax: 
 `https://images.is.ed.ac.uk/luna/servlet/iiif/m/[identifier]/manifest`
-* Elements described in 
-<http://iiif.io/api/image/2.1/>
+* Elements described in <http://iiif.io/api/presentation/2.1/#resource-properties>
 * Copy out the canvas section replacing the canvas here
 * We'll go through each element explaining what it does
 * Put the manifest up into the git repository
