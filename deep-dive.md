@@ -32,7 +32,7 @@
 * Create a simple webpage with html markup
 * Copy os/sr-test.html
 * IIIF Elements described in <http://iiif.io/api/image/2.1/#image-information>
-* OS Elements described in <https://openseadragon.github.io>
+* OS Elements described in <https://openseadragon.github.io/#browser-extension>
 
 #### Manifests
 * Try out this manifest builder: 
