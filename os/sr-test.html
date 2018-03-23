@@ -1,44 +1,48 @@
 <html>
-<head>
-<title>University of Edinburgh: Library and University Collections IIIF</title>
+ <head>
+    <title>University of Edinburgh: Library and University Collections IIIF</title>
     <script src="../assets/jquery-1.11.0/jquery-1.11.0.min.js"></script>
     <script src="../assets/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-</head>
-<body>
-<h3>Open Seadragon Test</h3>
-<div class="main-image">
-                            <div id="openseadragon" style="width:1200px;height:450px;">
-                                <script src="../assets/openseadragon/openseadragon.min.js"></script>
-                                <script type="text/javascript">
-OpenSeadragon({
-                                id: "openseadragon",
-                                prefixUrl: "https://collections.ed.ac.uk/theme/mimed/images/buttons/",
-                                preserveViewport: false,
-                                visibilityRatio: 1,
-                                minZoomLevel: 0,
-                                defaultZoomLevel: 0,
-                                panHorizontal: true,
-                                sequenceMode: true,
-                                tileSources: [{
-                                    "@context": "http://iiif.io/api/image/2/context.json",
-                                    "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~5115~100010",
-                                    "height": 4653,
-                                    "width": 3560,
-                                    "profile": ["http://iiif.io/api/image/2/level2.json",
-                                        {
-                                            "formats": ["gif", "pdf"]
-                                        }
-                                    ],
-                                    "protocol": "http://iiif.io/api/image",
-                                    "tiles": [{
-                                        "scaleFactors": [1, 2, 8, 16, 32],
-                                        "width": 4653,
-                                        "height": 3560                                    }],
-                                    "tileSize":750        
-                                        }]
-                                    });
-                                </script>
-                            </div>
-</body>
+ </head>
+ <body>
+   <h3>Open Seadragon Test</h3>
+   <div class="main-image">
+     <div id="openseadragon" style="width:1200px;height:1200px;">
+        <script src="../assets/openseadragon/openseadragon.min.js"></script>
+        <script type="text/javascript">
+	     OpenSeadragon({
+                   id: "openseadragon",
+                   prefixUrl: "https://collections.ed.ac.uk/theme/mimed/images/buttons/",
+                   preserveViewport: false,
+                   visibilityRatio: 1,
+                   minZoomLevel: 0,
+                   defaultZoomLevel: 0,
+                   panHorizontal: true,
+                   sequenceMode: true,
+                   tileSources:
+                     [{
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "@id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~5115~100010",
+                        "height": 4653,
+                        "width": 3560,
+                        "profile": ["http://iiif.io/api/image/2/level2.json",
+                                  {
+                                     "formats": ["gif", "pdf"]
+                                   }
+                                 ],
+                        "protocol": "http://iiif.io/api/image",
+                        "tiles": 
+                          [{
+                              "scaleFactors": [1, 2, 8, 16, 32],
+                              "width": 4653,
+                              "height": 3560                                   
+                           }],
+                        "tileSize":750        
+                       }]
+                   });
+       </script>
+      </div>
+    </div>
+  </body>
 </html>
