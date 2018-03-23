@@ -1,7 +1,7 @@
 ### Welcome to IIIF Deep Dive
 
 #### Construct your own!
-* Go to https://images.is.ed.ac.uk/luna/servlet
+* [Go to] (https://images.is.ed.ac.uk/luna/servlet)
 * Have a look for an image. Any image.
 * Example:
 `https://images.is.ed.ac.uk/luna/servlet/detail/UoEcar~4~4~52491~102838:Calotypes-and- Portraits,-Cal- 7-23`
