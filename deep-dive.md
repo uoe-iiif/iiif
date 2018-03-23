@@ -1,6 +1,6 @@
 ### Welcome to IIIF Deep Dive
 
-#### Construct your own!
+#### Construct Image API URLs
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
 * Have a look for an image. Any image.
 * Example:
@@ -16,7 +16,7 @@
 
 #### How do I work out co-ordinates?
 * Useful tool: 
-<http://dms-data.stanford.edu/data/iiif-tools/cropper/>
+<https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://images.is.ed.ac.uk/luna/servlet/iiif/UoE~3~3~110~175260>
 
 #### Use Git repository
 * If you have a git repo of your own, we will invite you to collaborate
