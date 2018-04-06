@@ -53,7 +53,7 @@
 
 #### Show the manifest in Mirador
 * Copy the manifest URL and append it to: 
-<https://librarylabs.ed.ac.uk/iiif/uv?manifest=>
+<https://librarylabs.ed.ac.uk/iiif/mirador?manifest=>
 
 #### IIIF Server from Scratch
 * See the Cantaloupe website
