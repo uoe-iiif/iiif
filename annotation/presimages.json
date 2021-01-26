@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://librarylabs.ed.ac.uk/mahabharataScroll.json",
+	"@id": "https://uoe-iiif.github.io/iiif/annotation/presimages.json",
 	"@type": "sc:Manifest",
 	"attribution": "Library Accessories",
 	"label": "IIIF Highlights at Edinburgh versions 0.1 and 1.0!",
