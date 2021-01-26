@@ -55,6 +55,9 @@
 * Copy the manifest URL and append it to: 
 <https://librarylabs.ed.ac.uk/iiif/mirador?manifest=>
 
+#### Annotation example
+<https://librarylabs.ed.ac.uk/iiif/mirador?manifest=https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifests/user/presimages.json>
+
 #### IIIF Server from Scratch
 * See the Cantaloupe website
 <https://medusa-project.github.io/cantaloupe/>
