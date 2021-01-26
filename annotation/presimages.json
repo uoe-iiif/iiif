@@ -1,0 +1,135 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://librarylabs.ed.ac.uk/mahabharataScroll.json",
+	"@type": "sc:Manifest",
+	"attribution": "Library Accessories",
+	"label": "IIIF Highlights at Edinburgh versions 0.1 and 1.0!",
+	"logo": "https://images-teaching.is.ed.ac.uk/luna/images/LUNAIIIF80.png",
+	"related": "https://images-teaching.is.ed.ac.uk/luna/servlet/detail/UoE~1~1~1~122467",
+	"sequences": [
+		{
+			"@type": "sc:Sequence",
+			"canvases": [
+								{
+					"@id": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1",
+					"@type": "sc:Canvas",
+					"description": "",
+					"height": 3508,
+					"images": [
+						{
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1",
+							"resource": {
+								"@id": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoE~1~1~2~122468/full/!1024,1024/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 3508,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoE~1~1~2~122468",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								},
+								"width": 4965
+							}
+						}
+					],
+					"otherContent" : [{
+            				"@id": "https://uoe-iiif.github.io/iiif/annotation/prescomment.json",
+            				"@type": "sc:AnnotationList"
+          			}],
+					"label": " ",
+					"metadata": [
+						{
+							"label": "Work Record ID",
+							"value": "<span>8888887</span>"
+						},
+						{
+							"label": "Title",
+							"value": "<span>IIIF Edinburgh Colour</span>"
+						},
+						{
+							"label": "Creator",
+							"value": "<span>Renton, Scott (b.1976)</span>"
+						},
+						{
+							"label": "Creator Nationality",
+							"value": "<span>Scottish</span>"
+						},
+						{
+							"label": "Creator Role",
+							"value": "<span>Artist</span>"
+						},
+						{
+							"label": "Date",
+							"value": "<span>2018</span>"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://images-teaching.is.ed.ac.uk/MediaManager/srvr?mediafile=/Size0/UoE~1~1/51/8888887.jpg"
+					},
+					"width": 4965
+				},
+				{
+					"@id": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~1~122467/canvas/c1",
+					"@type": "sc:Canvas",
+					"description": "",
+					"height": 3508,
+					"images": [
+						{
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~1~122467/canvas/c1",
+							"resource": {
+								"@id": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoE~1~1~1~122467/full/!1024,1024/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 3508,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoE~1~1~1~122467",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								},
+								"width": 4965
+							}
+						}
+					],
+					"label": " ",
+					"metadata": [
+						{
+							"label": "Work Record ID",
+							"value": "<span>8888888</span>"
+						},
+						{
+							"label": "Title",
+							"value": "<span>IIIF Highlights at University of Edinburgh</span>"
+						},
+						{
+							"label": "Creator",
+							"value": "<span>Renton, Scott (b.1976)</span>"
+						},
+						{
+							"label": "Creator Nationality",
+							"value": "<span>Scottish</span>"
+						},
+						{
+							"label": "Creator Role",
+							"value": "<span>Artist</span>"
+						},
+						{
+							"label": "Repro Title",
+							"value": "<span>IIIF Highlights at University of Edinburgh</span>"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://images-teaching.is.ed.ac.uk/MediaManager/srvr?mediafile=/Size0/UoE~1~1/50/IIIFHighlights.jpg"
+					},
+					"width": 4965
+				}
+
+			],
+			"viewingDirection": "left-to-right",
+			"viewingHint": "individuals"
+		}
+	]
+}

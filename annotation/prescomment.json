@@ -1,0 +1,530 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://uoe-iiif.github.io/iiif/annotation/prescomment.json",
+  "@type": "sc:AnnotationList",
+  "resources":
+  [ 
+                   {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeg3",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://collections.ed.ac.uk/art/record/19816\" target = \"_blank\">The Torrie Horse</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=3643,2141,410,143"
+    }, 
+                   {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeg4",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://www.eca.ed.ac.uk/news/public-art-puzzle-piecing-together-paolozzi\" target = \"_blank\">Paolozzi Fragments</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=254,484,410,143"
+    }, 
+                   {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeg6",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://discovered.ed.ac.uk/primo-explore/search?vid=44UOE_VU2&sortby=rank\" target = \"_blank\">Discover Ed</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=3320,3202,410,143"
+    }, 
+                       {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeg7",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"http://www.ed.ac.uk\" target = \"_blank\">The University of Edinburgh</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=2563,1440,410,143"
+    }, 
+                       {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeg8",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://vernonsystems.com/products/vernon-cms/\" target = \"_blank\">Vernon CMS</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=3382,2656,410,143"
+    }, 
+                           {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeg9",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://archives.collections.ed.ac.uk\" target = \"_blank\">Archives at University of Edinburgh</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=3339,2917,410,124"
+    }, 
+                               {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeh0",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://images.is.ed.ac.uk/luna/servlet/UoEcar~1~1\" target = \"_blank\">Carmichael Watson images</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=1334,1496,410,124"
+    }, 
+                               {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeh1",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>McEwan Hall</p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=745,2085,410,124"
+    }, 
+               {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef7",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"http://digilib.sourceforge.net/iiif-api.html\" target = \"_blank\">Digilib IIIF</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=3401,217,410,124"
+    }, 
+           {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef8",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://medusa-project.github.io/cantaloupe/\" target = \"_blank\">Cantaloupe IIIF</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=4127,1297,410,124"
+    },  
+       {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef9",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://iiif.github.io/training/intro-to-iiif/LEAFLET-IIIF.html\" target = \"_blank\">Leaflet IIIF</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=4555,658,410,124"
+    },  
+   {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeg0",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://openseadragon.github.io/\" target = \"_blank\">OpenSeadragon</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=4102,391,410,124"
+    },  
+ {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeg1",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://images.is.ed.ac.uk/luna/servlet/s/1lx4fn\" target = \"_blank\">Lady Grange Letters</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=478,1434,410,124"
+    }, 
+
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeh2",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://www.ed.ac.uk/biomedical-sciences/anatomy\" target = \"_blank\">William Burke</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=1247,317,410,124"
+    }, 
+        {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfeh3",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Main Library</p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=3351,1912,410,124"
+    },
+        {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef2",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Greyfriars Bobby</p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=2005,3022,484,137"
+    }, 
+                {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef3",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Arthurs Seat</p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=1744,596,298,87"
+    }, 
+
+            {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef4",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"http://iiif.io\" target = \"_blank\">IIIF</a></p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=1725,1465,410,143"
+    }, 
+
+            {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef5",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"http://universalviewer.io\" target = \"_blank\">Univeral Viewer</a></p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=875,2892,410,143"
+    }, 
+                {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef6",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"http://projectmirador.org\" target = \"_blank\">Mirador</a></p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=248,2948,410,143"
+    },  
+        {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfee9",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Old College</p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=1210,2445,484,137"
+    },  
+        {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef0",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>New College</p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=2936,2451,484,137"
+    },  
+        {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfef1",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Edinburgh Castle</p>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=2073,2365,484,137"
+    },   
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfee7",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://test.collections.ed.ac.uk/towardsdolly\" target =\"_blank\">Dolly The Sheep</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=2681,856,484,137"
+    }, 
+        {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfee0",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://test.archives.collections.ed.ac.uk/repositories/2/resources/85926\" target =\"_blank\">Archives Space IIIF trial</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=1198,1713,484,155"
+    },
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfee1",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://librarylabs.ed.ac.uk/iiif/argyle-rooms\" target =\"_blank\">Presentation API: Argyle House Rooms</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=174,2271,484,137"
+    },
+        {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfee2",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/calendars/CalendarCollection.json\" target =\"_blank\">Presentation API: Calendars</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=199,2532,484,137"
+    },  
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfee3",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"http://libraryblogs.is.ed.ac.uk/librarylabs/2017/06/23/automated-item-d…-old-manuscripts/\" target =\"_blank\">Session Papers</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=3035,1012,484,137"
+    },  
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfee4",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://collections.ed.ac.uk/coimbra\" target =\"_blank\">Coimbra Virtual Exhibition</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=4065,1074,484,137"
+    },  
+        {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfee5",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://images.is.ed.ac.uk/luna/servlet\" target =\"_blank\">LUNA Image Repository</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=4226,2780,484,137"
+    },  
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfee6",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"http://illustratingscott.lib.ed.ac.uk\" target =\"_blank\">Illustrating Scott</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=2569,2185,484,137"
+    }, 
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfed7",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://collections.ed.ac.uk/mimed\" target =\"_blank\">MIMEd Collection</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=1185,968,484,155"
+    },
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfed8",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://test.polyanno.librarylabs.ed.ac.uk\" target =\"_blank\">Polyanno (coming soon- test preview)</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=515,1955,484,155"
+    },
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfed9",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://test.collections.ed.ac.uk/speccoll\" target =\"_blank\">Special Collections explorations</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=1632,2005,484,155"
+    },
+     {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfed5",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://collections.ed.ac.uk/stcecilias\" target =\"_blank\">St Cecilia's Hall</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=658,149,385,124"
+    },
+    {
+
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "g5315d3a-8e02-41ca-a4c8-90sdfsfed6",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<a href= \"https://collections.ed.ac.uk/art\" target =\"_blank\">Art Collection</a>"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=441,739,484,155"
+    },
+    {
+      "@id": "f5315d3a-8e02-41ca-a4c8-90dc45bd8ef5",
+      "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource":
+      {
+        "@type": "cnt:ContentAsText",
+        "chars": "<a href= \"https://collections.ed.ac.uk/mahabharata\" target =\"_blank\">Mahabharata Scroll</a>",
+        "format": "text/html",
+        "language": "en"
+      },
+      "on": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/m/UoE~1~1~2~122468/canvas/c1#xywh=2427,335,385,124"
+    }
+
+  ]
+
+}
