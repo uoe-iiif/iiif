@@ -1,4 +1,17 @@
-### Welcome to IIIF Deep Dive
+### Welcome to the CDCS IIIF Workshop
+* Presenters Scott Renton and Mike Bennett, Digital Library.
+
+#### Slides: 
+* https://docs.google.com/presentation/d/11wwZnt2JsgpW5dOf6vni1-sMVEu4RWlvet0i8PH7oHg/edit?usp=sharing
+
+#### Edinburgh deployments
+* <https://images.is.ed.ac.uk/luna/servlet> (Image repository)
+* <https://collections.ed.ac.uk/mimed> (Musical Instruments Collection)
+* <https://collections.ed.ac.uk/art> (Art Collection)
+* <https://collections.ed.ac.uk/stcecilias> (St Cecilias Museum)
+* <https://collections.ed.ac.uk/coimbra-colls> (Coimbra Collections- uses Cantaloupe and international content)
+* <https://collections.ed.ac.uk/mahabharata> (Mahabharata Scroll)
+* <https://collections.ed.ac.uk/speccoll/record/117297> (NOT OFFICIALLY LIVE! Manifest endpoint)
 
 #### Construct Image API URLs
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
