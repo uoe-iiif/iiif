@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Universal Viewer Examples</title>
+    <link rel="icon" href="/examples/favicon.ico">
+    <link rel="stylesheet" href="lib/foundation/css/foundation.css" />
+    <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+    <!--<script type="text/javascript" id="embedUV" src="/src/lib/embed.js"></script>-->
+    <!--<script type="text/javascript" id="embedUV" src="uv/lib/embed.js"></script>-->
+    <style>
+        @media (min-width: 1500px) {
+            .container {
+                width: 1500px;
+            }
+        }
+        .header-banner       { width: 1000px; height: 126px; background: url(../../css/images/librarylabsheaderiiif.png) no-repeat 0 0; display: block; margin: auto}
+        .calendar-banner { width: 1000px; height: 124px; background: url(../../css/images/calendars.png) no-repeat 0 0; display: block; margin: auto}
+        .uv      { width: 1000px; height:668px; background-color: #000; display: block; margin: auto}
+        footer {display: block; margin-left: auto; margin-right: auto;}
+        .text      { padding-top:10px; width: 750px; display: block; margin-left: auto; margin-right: auto;font-family: "Marion","Lucida Console", "Arial"; font-size: 0.75em; text-align: justify; }
+        .headtext      { width: 750px; display: block; margin-left: auto; margin-right: auto;font-family: "Marion", "Lucida Console", "Arial"; }
+        body {background-color: #e3e3e3;}
+        .iiifspec {display: none;}
+        .configEditor {display: none;}
+    </style>
+</head>
+<body>
+
+    <!--<header>-->
+
+    <!--</header>-->
+
+    <!--
+     psd dimensions
+     width:1138px; height:760px
+     -->
+    <div class = "content">
+    <div class="header-banner"></div>
+        <div class="calendar-banner"></div>
+    <main>
+        <div class="uv" data-no-load="true"></div>
+    </main>
+
+        <div class="text">
+            <p> Calendars are produced every year to showcase the diverse range of material held in the University's collections. These are generally produced around a specific theme, e.g. Bygone Edinburgh (2014), Historic Musical Instruments (2012) and Travel (2008) but in some years (e.g. 2010 and 2011) a selection of images illustrating Treasures of the Collections are selected.
+            </p>
+            <p>
+                All images were created by the Digital Imaging Unit and are copyright the University of Edinburgh.
+            </p>
+            <p>
+                Images from all calendars, from 2006 onwards will be available in this collection.
+            </p>
+
+
+            <h3 class ="headtext">IIIF at The University of Edinburgh</h3>
+            <p>The viewable content has been made available using IIIF manifests and the freely-available Universal Viewer (UV). This framework allows us to very easily present images to the user through a detailed set of programmatic instructions, allowing easy sharing of high-resolution images, served, in this case from our LUNA images repository (<a href="https://images.is.ed.ac.uk" target="_blank">images.is.ed.ac.uk</a>).<p>
+            <p>More information is available at <a href="http://iiif.io" target="_blank">iiif.io</a>. Please visit <a href="https://collections.ed.ac.uk/stcecilias" target="_blank">collections.ed.ac.uk/stcecilias</a> to see an example of a IIIF-driven collections site built by the Library Digital Development team.</p>
+            <p> © University of Edinburgh, 2018.
+            </p>
+
+        </div>
+        <hr>
+
+    <footer>
+
+        <!-- Note: in order for config changes to appear in the editor, you need to run a build -->
+
+        <!--<hr/>-->
+
+        <!--<h3>Options</h3>-->
+
+        <!--<div>-->
+            <!--<input id="cors-or-jsonp-auto" checked="checked" name="cors-or-jsonp" type="radio"><label for="cors-or-jsonp-auto">Autodetect CORS/JSONP</label>-->
+            <!--<input id="cors" name="cors-or-jsonp" type="radio"><label for="cors">Force CORS</label>-->
+            <!--<input id="jsonp" name="cors-or-jsonp" type="radio"><label for="jsonp">Force JSONP</label>-->
+            <!--<p>Controls whether the viewer uses CORS or JSONP to load manifests and info.json. Default automatic behaviour is to use JSONP for IE<10, CORS otherwise.</p>-->
+        <!--</div>-->
+
+        <!--<div>-->
+            <!--<input id="testids" type="checkbox"><label for="testids">Test Ids</label>-->
+            <!--<p>Adds unique ids to viewer buttons for testing convenience.</p>-->
+        <!--</div>-->
+
+        <!--<div>-->
+            <!--<input id="defaultToFullScreen" type="checkbox"><label for="defaultToFullScreen">Default to Full Screen</label>-->
+            <!--<p>Makes the viewer open in full screen when the page loads.</p>-->
+        <!--</div>-->
+
+        <!--<a id="setOptionsBtn" class="button">Set</a>-->
+
+        <!--<hr/>-->
+
+        <!--<h3>Fabienne Hess - Zebras, Blanks and Blobs, Windows (2017)</h3>-->
+
+        <div class ="iiifspec">
+
+        <h3>Manifest</h3>
+
+        <select id="manifestSelect"></select>
+
+        <input id="manifest" type="text" value="" />
+
+        <a id="setManifestBtn" class="button">Set</a>
+
+
+        <!--<a id="dragndrop" href="e-codices-help.html?manifest=http://www.e-codices.unifr.ch/metadata/iiif/kba-0003/manifest.json&amp;canvas=http://www.e-codices.unifr.ch/metadata/iiif/kba-0003/canvas/kba-0003_002r.json">-->
+        <a id="dragndrop">
+            <img src="iiif.png" title="Drag and drop this icon into an IIIF viewer">
+        </a>
+        </div>
+        <div style="display:none">
+            <hr/>
+
+            <h3>Locale</h3>
+
+            <p>Test setting the data-locale attribute on the embedding div.</p>
+
+            <select id="locale">
+
+            </select>
+
+            <p>Set locale precedence and label e.g. "cy-GB:Welsh,en-GB:English"</p>
+
+            <input id="locales" type="text" value="" />
+
+            <a id="setLocalesBtn" class="button">Set</a>
+        </div>
+
+        <div class="configEditor">
+            <hr/>
+
+            <h3>Config&nbsp;<span class="config-name"></span></h3>
+
+            <p>Changes to config made with this tool are at the session level and not persisted.</p>
+
+            <ul id="edit-config" class="button-group">
+                <li><a id="editBtn" href="#" class="button">Edit</a></li>
+                <li><a id="closeBtn" href="#" class="button hide">Close</a></li>
+                <li><a id="saveBtn" href="#" class="button hide">Save</a></li>
+                <li><a id="resetBtn" href="#" class="button hide">Reset</a></li>
+            </ul>
+
+            <div id="editPnl" class="hide">
+                <div id="editor"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="uoe-logo">
+                <a target="_blank" href="http://www.ed.ac.uk/">
+                    <img title="The University of Edinburgh" src="../../css/images/UoELogo.png">
+                </a>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li>
+                        <a href="http://www.ed.ac.uk.ezproxy.is.ed.ac.uk/about/website/website&#45;terms&#45;conditions">Terms &amp; conditions </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.ed.ac.uk.ezproxy.is.ed.ac.uk/about/website/privacy">Privacy &amp; cookies </a></li>
+
+                    <li>
+                        <a href="http://www.ed.ac.uk.ezproxy.is.ed.ac.uk/about/website/accessibility">Website accessibility </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.ed.ac.uk.ezproxy.is.ed.ac.uk/about/website/freedom&#45;information">Freedom of Information Publication Scheme </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="luc-logo">
+                <a target="_blank" href="http://libraryblogs.is.ed.ac.uk/">
+                    <img title="Library and University Collections Blog" src="../../css/images/L&UCLogo.png">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="browserdetect.js"></script>
+    <script type="text/javascript" src="lib/utils/dist/utils.js"></script>
+    <script type="text/javascript" src="lib/extensions/dist/extensions.js"></script>
+    <script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="lib/jmespath.js/artifacts/jmespath.js"></script>
+    <script type="text/javascript" src="lib/json-editor/dist/jsoneditor.js"></script>
+    <script type="text/javascript" src="lib/jquery-plugins/dist/jquery-plugins.js"></script>
+    <!--<script type="text/javascript" src="testids.js"></script>-->
+    <!--<script type="text/javascript" src="events.js"></script>-->
+    <script type="text/javascript" src="examples.js"></script>
+
+</body>
+</html>

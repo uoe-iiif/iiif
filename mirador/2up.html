@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Test 2-up</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		#viewer {
+			width: 100%;
+			height: 100%;
+			position: fixed;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.css">
+	<script src="mirador/mirador.min.js"></script>
+</head>
+
+<body>
+	<div id="viewer"></div>
+	<script type="text/javascript">
+      $(function() {
+
+          Mirador({
+            id: "viewer",
+            layout: "1x2",
+            data: [
+                { manifestUri: "https://digirati-co-uk.github.io/rs-info/iiif/PT_73_5.json", location: "Royal Society" },
+                { manifestUri: "https://dlcs.io/iiif-resource/51/item/rstl_1816_0024", location: "Royal Society" }
+            ],
+            windowObjects: [
+                {
+                    loadedManifest: "https://digirati-co-uk.github.io/rs-info/iiif/PT_73_5.json",
+                    slotAddress: "row1.column1",
+                    viewType: "ImageView",
+                    canvasID: "https://digirati-co-uk.github.io/rs-info/iiif/PT_73_5/canvas/20"
+                },
+                {
+                    loadedManifest: "https://dlcs.io/iiif-resource/51/item/rstl_1816_0024",
+                    slotAddress: "row1.column2",
+                    viewType: "ImageView",
+                    canvasID: "https://dlcs.io/iiif-query/51/?canvas=n2&manifest=s1&sequence=n1&s1=rstl_1816_0024&n1=&n2=10"
+                }
+            ]
+          });
+        });
+
+    </script>
+</body>
+</html>

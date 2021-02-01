@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Insects in mirador</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		#viewer {
+			width: 100%;
+			height: 100%;
+			position: fixed;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="../mirador/css/mirador-combined.css">
+	<script src="../mirador/mirador.min.js"></script>
+</head>
+
+<body>
+	<div id="viewer"></div>
+	<script type="text/javascript">
+      $(function() {
+
+          Mirador({
+            id: "viewer",
+            layout: "2x2",
+            data: [
+                { manifestUri: "https://digirati-co-uk.github.io/rs-info/iiif/PT_73_5.json", location: "Royal Society" },
+                { manifestUri: "https://dlcs.io/iiif-resource/51/item/rstl_1816_0024", location: "Royal Society" },
+                { manifestUri: "https://wellcomelibrary.org/iiif/b28068063/manifest", location: "Wellcome" },
+                { manifestUri: "http://iiif.bodleian.ox.ac.uk/iiif/manifest/2719989d-fa8d-43fb-907e-2013405ea151.json", location: "Bodleian" }
+            ],
+            windowObjects: [
+                {
+                    loadedManifest: "https://digirati-co-uk.github.io/rs-info/iiif/PT_73_5.json",
+                    viewType: "ImageView",
+                    canvasID: "https://digirati-co-uk.github.io/rs-info/iiif/PT_73_5/canvas/20"
+                },
+                {
+                    loadedManifest: "https://dlcs.io/iiif-resource/51/item/rstl_1816_0024",
+                    viewType: "ImageView",
+                    canvasID: "https://dlcs.io/iiif-query/51/?canvas=n2&manifest=s1&sequence=n1&s1=rstl_1816_0024&n1=&n2=10"
+                },
+                {
+                    loadedManifest: "https://wellcomelibrary.org/iiif/b28068063/manifest",
+                    viewType: "ImageView",
+                    canvasID: "http://wellcomelibrary.org/iiif/b28068063/canvas/c52"
+                },
+                {
+                    loadedManifest: "http://iiif.bodleian.ox.ac.uk/iiif/manifest/2719989d-fa8d-43fb-907e-2013405ea151.json",
+                    viewType: "ImageView",
+                    canvasID: "http://iiif.bodleian.ox.ac.uk/iiif/canvas/f28a314c-9c63-4f3b-a5ae-3b22a29114dd.json"
+                }
+            ]
+          });
+        });
+
+    </script>
+</body>
+</html>

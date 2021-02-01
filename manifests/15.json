@@ -1,0 +1,184 @@
+{
+  "id": "https://librarylabs.ed.ac.uk/iiif/manifest/15.json",
+  "type": "Manifest",
+  "logo": "https://images.is.ed.ac.uk/luna/images/LUNAIIIF80.png",
+  "label": "AV Experiment",
+  "description": "Does this work?",
+  "sequences": [
+    {
+      "id": "https://librarylabs.ed.ac.uk/iiif/manifest/andy_stewart/seq1",
+      "type": "Sequence",
+      "canvases": [
+        {
+          "id": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1",
+          "type": "Canvas",
+          "width": 1600,
+          "height": 1000,
+          "duration": 60,
+          "content": [
+            {
+              "id": "https://tomcrane.github.io/fire/annos/page",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno0",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 1600,
+                    "height": 1000
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=0,0,1600,1000&t=0,60"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno0",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "id": "https://images.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 1600,
+                    "height": 1000
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=0,0,1600,1000&t=0,60"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno1",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "type": "TextualBody",
+                    "format": "text/plain",
+                    "value": "Flute, nominal pitch: C Villars Awaiting date"
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=100,700,800,100&t=0,20"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno2",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "type": "TextualBody",
+                    "format": "text/plain",
+                    "value": "Awaiting description"
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=100,700,800,100&t=25,45"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno3",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "type": "TextualBody",
+                    "format": "text/plain",
+                    "value": "St Cecilias Hall at The University of Edinburgh"
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=100,700,1600,100&t=45,55"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno4",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "id": "https://www.ed.ac.uk/sites/all/themes/uoe/assets/logo.png",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 831,
+                    "height": 199
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=300,800,831,199&t=55,60"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno4",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "id": "http://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~2~2~50680~104018/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 700,
+                    "height": 490.8203125,
+                    "duration": 12.0
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=880,20,700,490.8203125&t=0,12.0"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno5",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "id": "https://librarylabs.ed.ac.uk/iiif/media/0032013s.mp3",
+                    "type": "Audio",
+                    "format": "audio/mp3",
+                    "duration": 60
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=100,100,200,200&t=0,30"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno6",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "id": "http://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~2~2~73371~167148/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 700,
+                    "height": 464.0151515151515,
+                    "duration": 12.0
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=880,20,700,464.0151515151515&t=12.0,24.0"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno7",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "id": "http://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~2~2~74137~166886/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 700,
+                    "height": 132.16145833333331,
+                    "duration": 12.0
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=880,20,700,132.16145833333331&t=24.0,36.0"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno8",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "id": "http://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~2~2~74138~166885/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 700,
+                    "height": 490.8203125,
+                    "duration": 12.0
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=880,20,700,490.8203125&t=36.0,48.0"
+                },
+                {
+                  "id": "https://librarylabs.ed.ac.uk/iiif/andy_stewart/anno9",
+                  "type": "Annotation",
+                  "motivation": "Painting",
+                  "body": {
+                    "id": "http://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~2~2~73267~166262/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 700.0,
+                    "height": 700,
+                    "duration": 12.0
+                  },
+                  "target": "https://images-teaching.is.ed.ac.uk/luna/servlet/iiif/UoEgal~4~4~168664~177233/canvas/c1#xywh=880,20,700.0,700&t=48.0,60.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
