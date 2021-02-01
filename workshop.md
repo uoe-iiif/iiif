@@ -1,8 +1,8 @@
 ### Welcome to the CDCS IIIF Workshop
-* Presenters Scott Renton and Mike Bennett, Digital Library.
+* Presenters: Scott Renton and Mike Bennett, Digital Library.
 
 #### Slides: 
-* https://docs.google.com/presentation/d/11wwZnt2JsgpW5dOf6vni1-sMVEu4RWlvet0i8PH7oHg/edit?usp=sharing
+* <https://docs.google.com/presentation/d/11wwZnt2JsgpW5dOf6vni1-sMVEu4RWlvet0i8PH7oHg/edit?usp=sharing>
 
 #### Edinburgh deployments
 * <https://images.is.ed.ac.uk/luna/servlet> (Image repository)
@@ -12,6 +12,11 @@
 * <https://collections.ed.ac.uk/coimbra-colls> (Coimbra Collections- uses Cantaloupe and international content)
 * <https://collections.ed.ac.uk/mahabharata> (Mahabharata Scroll)
 * <https://collections.ed.ac.uk/speccoll/record/117297> (NOT OFFICIALLY LIVE! Manifest endpoint)
+
+#### Fun stuff
+* <https://uoe-iiif.github.io/iiif/slider/slider.html> (Compare two versions of an image using a slider viewer)
+* <https://librarylabs.ed.ac.uk/iiif/mirador?manifest=https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifests/user/presimages.json> (Annotations example in Mirador)
+* <https://librarylabs.ed.ac.uk/iiif/av-player> (AV example- defaults to the Argentina 78 manifest, but try dropping in rhino, 4316, 2695 in manifests folder)
 
 #### Construct Image API URLs
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
@@ -31,7 +36,7 @@
 * Useful tool: 
 <https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://images.is.ed.ac.uk/luna/servlet/iiif/UoE~3~3~110~175260>
 
-#### Use Git repository
+#### This Git repository
 * If you have a git repo of your own, we will invite you to collaborate
 * Fork <https://github.com/uoe-iiif/iiif>
 * Clone the repo `git clone https://github.com/uoe-iiif/iiif.git`
@@ -58,18 +63,18 @@
 * Elements described in <http://iiif.io/api/presentation/2.1/#resource-properties>
 * Copy out the canvas section replacing the canvas here
 * We'll go through each element explaining what it does
-* Put the manifest up into the git repository
+* Put the manifest up into the git repository manifests folder
 
 #### Show the manifest in UV
 * Copy the manifest URL and append it to: 
-<https://librarylabs.ed.ac.uk/iiif/uv?manifest=>
+<https://uoe-iiif.github.io/iiif/uv?manifest=>
 
 #### Show the manifest in Mirador
 * Copy the manifest URL and append it to: 
-<https://librarylabs.ed.ac.uk/iiif/mirador?manifest=>
+<https://uoe-iiif.github.io/iiif/mirador?manifest=>
 
 #### Annotation example
-<https://librarylabs.ed.ac.uk/iiif/mirador?manifest=https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifests/user/presimages.json>
+
 
 #### IIIF Server from Scratch
 * See the Cantaloupe website
