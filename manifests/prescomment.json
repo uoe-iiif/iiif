@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://uoe-iiif.github.io/iiif/annotation/prescomment.json",
+  "@id": "https://uoe-iiif.github.io/iiif/manifests/prescomment.json",
   "@type": "sc:AnnotationList",
   "resources":
   [ 
