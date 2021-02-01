@@ -10,12 +10,12 @@
 * <https://collections.ed.ac.uk/art> (Art Collection)
 * <https://collections.ed.ac.uk/stcecilias> (St Cecilias Museum)
 * <https://collections.ed.ac.uk/coimbra-colls> (Coimbra Collections- uses Cantaloupe and international content)
-* <https://collections.ed.ac.uk/mahabharata> (Mahabharata Scroll)
 * <https://collections.ed.ac.uk/speccoll/record/117297> (NOT OFFICIALLY LIVE! Manifest endpoint)
 
 #### Fun stuff
-* <https://uoe-iiif.github.io/iiif/slider/slider.html> (Compare two versions of an image using a slider viewer)
+* <https://collections.ed.ac.uk/mahabharata> (Mahabharata Scroll)
 * <https://librarylabs.ed.ac.uk/iiif/mirador?manifest=https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifests/user/presimages.json> (Annotations example in Mirador)
+* <https://uoe-iiif.github.io/iiif/slider/slider.html> (Compare two versions of an image using a slider viewer)
 * <https://librarylabs.ed.ac.uk/iiif/av-player> (AV example- defaults to the Argentina 78 manifest, but try dropping in rhino, 4316, 2695 in manifests folder)
 
 #### Construct Image API URLs
@@ -32,7 +32,7 @@
 * See the json: 
 <https://images.is.ed.ac.uk/luna/servlet/iiif/UoEcar~4~4~52491~102838/info.json>
 
-#### How do I work out co-ordinates?
+#### How do you work out co-ordinates?
 * Useful tool: 
 <https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://images.is.ed.ac.uk/luna/servlet/iiif/UoE~3~3~110~175260>
 
