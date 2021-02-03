@@ -19,6 +19,10 @@
 		<script type="text/javascript" src="./js/custom/main.js"></script>
 	</head>
 	<body>
+                <h2>IIIF AV Player (c) Digirati/British Library </h2>
+	        <div><p>Pressing "Load JSON" will by default bring in the Argentina 78 montage.</p>
+                <p>Other manifests to try can be found at https://github.com/uoe-iiif/manifests (rhino.json, 2695.json, 4316.json etc).</p>
+                <p>To see these, enter full URL and press Reload.</a> 
 		<?php
 		if (isset($_GET['manifest']))
 		{
@@ -26,7 +30,7 @@
 		}
 		else
 		{
-			$manifest = "https://librarylabs.ed.ac.uk/iiif/manifest/arg_78.json";
+			$manifest = "https://uoe-iiif.github.io/iiif/manifests/arg_78.json";
 		}
 		?>
 		
