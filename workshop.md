@@ -73,9 +73,6 @@
 * Copy the manifest URL and append it to: 
 <https://uoe-iiif.github.io/iiif/mirador?manifest=>
 
-#### Annotation example
-
-
 #### IIIF Server from Scratch
 * See the Cantaloupe website
 <https://medusa-project.github.io/cantaloupe/>
