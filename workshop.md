@@ -1,4 +1,4 @@
-### Welcome to the CDCS IIIF Workshop
+### Welcome to the CDCS Workshop: Digitalised Documents Good Practice (IIIF) 
 * Presenters: Scott Renton and Mike Bennett, Digital Library, UoE, L&UC.
 
 #### Slides: 
