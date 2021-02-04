@@ -1,5 +1,5 @@
 ### Welcome to the CDCS IIIF Workshop
-* Presenters: Scott Renton and Mike Bennett, Digital Library, UoE.
+* Presenters: Scott Renton and Mike Bennett, Digital Library, UoE, L&UC.
 
 #### Slides: 
 * <https://docs.google.com/presentation/d/11wwZnt2JsgpW5dOf6vni1-sMVEu4RWlvet0i8PH7oHg/edit?usp=sharing>
