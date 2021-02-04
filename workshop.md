@@ -14,9 +14,9 @@
 
 #### Fun stuff
 * <https://collections.ed.ac.uk/mahabharata> (Mahabharata Scroll)
-* <https://librarylabs.ed.ac.uk/iiif/mirador?manifest=https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifests/user/presimages.json> (Annotations example in Mirador)
+* <https://uoe-iiif.github.io/iiif/mirador/?manifest=https://uoe-iiif.github.io/iiif/manifests/presimages.json> (Annotations example in Mirador)
 * <https://uoe-iiif.github.io/iiif/slider/slider.html> (Compare two versions of an image using a slider viewer)
-* <https://librarylabs.ed.ac.uk/iiif/av-player> (AV example- defaults to the Argentina 78 manifest, but try dropping in rhino, 4316, 2695 in manifests folder)
+* <https://uoe-iiif.github.io/iiif/av-player> (AV example- defaults to the Argentina 78 manifest, but try dropping in rhino, 4316, 2695 in manifests folder)
 
 #### Image API manipulation
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
