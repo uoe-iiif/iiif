@@ -44,6 +44,7 @@
 ### FURTHER THINGS TO TRY (OUTSIDE OF THE WORKSHOP)
 
 #### OpenSeaDragon in a webpage?
+* See <https://uoe-iiif.github.io/iiif/os/sr-test.html>
 * Create a simple webpage with html markup
 * Copy os/sr-test.html
 * Change the image to a LUNA one- using the /info.json
