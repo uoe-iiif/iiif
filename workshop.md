@@ -1,4 +1,4 @@
-### Welcome to the CDCS Workshop: Digitalised Documents Good Practice (IIIF) 
+### Welcome to the CDCS Workshop: Managing Digitalised Documents (IIIF) 
 * Presenters: Scott Renton and Mike Bennett, Digital Library, UoE, L&UC.
 
 #### Slides: 
@@ -10,24 +10,30 @@
 * <https://collections.ed.ac.uk/art> (Art Collection)
 * <https://collections.ed.ac.uk/stcecilias> (St Cecilias Museum)
 * <https://collections.ed.ac.uk/coimbra-colls> (Coimbra Collections- uses Cantaloupe and international content)
-* <https://collections.ed.ac.uk/speccoll/record/117297> (NOT OFFICIALLY LIVE! Manifest endpoint)
+* <https://collections.ed.ac.uk/speccoll/record/117297> (Manifest endpoint)
+* <https://librarylabs.ed.ac.uk/iiif/uv?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/AllContent.json> (All digitised content in one manifest)
+* <https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/LyellCollection.json> (Charles Lyell Notebooks in one manifest)
+* <https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/calendars/CalendarCollection.json> (University Calendars)
+* <https://exhibitions.ed.ac.uk> (Exhibitions platform)
 
 #### Fun stuff
+* <https://librarylabs.ed.ac.uk/iiif/argyle-rooms> (Meeting rooms in Argyle House)
 * <https://collections.ed.ac.uk/mahabharata> (Mahabharata Scroll)
 * <https://uoe-iiif.github.io/iiif/mirador/?manifest=https://uoe-iiif.github.io/iiif/manifests/presimages.json> (Annotations example in Mirador)
 * <https://uoe-iiif.github.io/iiif/slider/slider.html> (Compare two versions of an image using a slider viewer)
 * <https://librarylabs.ed.ac.uk/iiif/av-player/> (AV example- defaults to the Argentina 78 manifest, but try dropping in "rhino", 4316, 2695 etc in manifests folder)
-* <http://universalviewer.io/uv.html?manifest=http://129.215.193.229/whiiif/resources/manifests/CSP-78> (UniversalViewer with a searchable manifest from the Session Papers collection)
+* <https://exhibitions.ed.ac.uk/exhibitions/walter-scott-revolution/the-revolutionary-past> (Slow Looking example)
+* <https://exhibitions.ed.ac.uk/exhibitions/sea-change/from-warship-to-research-vessel> (StorIIIes example)
 
 #### Image API manipulation
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
 * Have a look for an image. Any image, and look at the URL.
 * Example:
-<https://images.is.ed.ac.uk/luna/servlet/detail/UoEcar~4~4~52491~102838:Calotypes-and- Portraits,-Cal- 7-23>
-* Copy the identification section to your clipboard (in the above example: UoEcar~4~4~52491~102838 - your image will have a similar section)
+<https://images.is.ed.ac.uk/luna/servlet/detail/UoEecp~1~1~52980~140316::Veronica-Renton-4th-year-fashion-20%3Fsort%3Dwork_description%252Cwork_creator_name%252Cwork_title%252Cwork_subject?qvq=q:renton;sort:work_description%2Cwork_creator_name%2Cwork_title%2Cwork_subject;lc:UoEecp~1~1&mi=1&trs=2>
+* Copy the identification section to your clipboard (in the above example: UoEecp~1~1~52980~140316 - your image will have a similar section)
 
-* Now open this URL, replacing the "UoEcar~4~4~52491~10283" with your identification section:
-<https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://images.is.ed.ac.uk/luna/servlet/iiif/UoEcar~4~4~52491~102838>
+* Now open this URL, replacing the "UoEecp~1~1~52980~140316" with your identification section
+<https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://images.is.ed.ac.uk/luna/servlet/iiif/UoEecp~1~1~52980~140316>
 
 * Manipulating the image on this site will generate a IIIF URL for your image as you wish to display it.
 
@@ -35,11 +41,15 @@
 {scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
 
 * See the json: 
-<https://images.is.ed.ac.uk/luna/servlet/iiif/UoEcar~4~4~52491~102838/info.json>
+<https://images.is.ed.ac.uk/luna/servlet/iiif/UoEecp~1~1~52980~140316/info.json>
+
+* Drop into an OpenSeadragon viewer, eg
+<https://vanda.github.io/iiif-features/openSeadragon.html?iiifinfo=https://images.is.ed.ac.uk/luna/servlet/iiif/UoEecp~1~1~52980~140316/info.json>
 
 #### Manifests
 * Try out this manifest builder: 
 <https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifestbuild.php>
+
 
 
 ### FURTHER THINGS TO TRY (OUTSIDE OF THE WORKSHOP)
