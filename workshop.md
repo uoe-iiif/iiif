@@ -1,23 +1,23 @@
 ### Welcome to the CDCS Workshop: Managing Digitalised Documents (IIIF) 
 * Presenters: Scott Renton and Mike Bennett, Digital Library, UoE, L&UC.
 
-#### Slides: 
+### SLIDES 
 * <https://docs.google.com/presentation/d/11wwZnt2JsgpW5dOf6vni1-sMVEu4RWlvet0i8PH7oHg/edit?usp=sharing>
 
-#### Edinburgh deployments
+### Edinburgh- practical deployments
 * <https://images.is.ed.ac.uk/luna/servlet> (Image repository)
 * <https://collections.ed.ac.uk/mimed> (Musical Instruments Collection)
 * <https://collections.ed.ac.uk/art> (Art Collection)
 * <https://collections.ed.ac.uk/stcecilias> (St Cecilias Museum)
 * <https://collections.ed.ac.uk/coimbra-colls> (Coimbra Collections- uses Cantaloupe and international content)
 * <https://collections.ed.ac.uk/speccoll/record/117297> (Manifest endpoint)
-* <https://librarylabs.ed.ac.uk/iiif/uv?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/AllContent.json> (All digitised content in one manifest)
-* <https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/LyellCollection.json> (Charles Lyell Notebooks in one manifest)
-* <https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/calendars/CalendarCollection.json> (University Calendars)
 * <https://exhibitions.ed.ac.uk> (Exhibitions platform)
 
 
-#### Fun stuff
+### Edinburgh- investigation and ad-hoc work
+* <https://librarylabs.ed.ac.uk/iiif/uv?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/AllContent.json> (All digitised content in one manifest)
+* <https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/LyellCollection.json> (Charles Lyell Notebooks in one manifest)
+* <https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/calendars/CalendarCollection.json> (University Calendars)
 * <https://librarylabs.ed.ac.uk/iiif/argyle-rooms> (Meeting rooms in Argyle House)
 * <https://collections.ed.ac.uk/mahabharata> (Mahabharata Scroll)
 * <https://uoe-iiif.github.io/iiif/mirador/?manifest=https://uoe-iiif.github.io/iiif/manifests/presimages.json> (Annotations example in Mirador)
@@ -27,7 +27,7 @@
 * <https://exhibitions.ed.ac.uk/exhibitions/walter-scott-revolution/the-revolutionary-past> (Slow Looking example)
 * <https://exhibitions.ed.ac.uk/exhibitions/sea-change/from-warship-to-research-vessel> (StorIIIes example)
 
-#### Image API manipulation
+### Image API manipulation
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
 * Have a look for an image. Any image, and look at the URL.
 * Example:
@@ -48,7 +48,7 @@
 * Drop into an OpenSeadragon viewer, eg
 <https://vanda.github.io/iiif-features/openSeadragon.html?iiifinfo=https://images.is.ed.ac.uk/luna/servlet/iiif/UoEecp~1~1~52980~140316/info.json>
 
-#### Manifests
+### Manifests
 * Try out this manifest builder: 
 <https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifestbuild.php>
 
@@ -111,7 +111,9 @@
 * Mirador <https://projectmirador.org>
 * OpenSeadragon <https://openseadragon.github.io>
 * 3D Charter <https://docs.google.com/document/d/13OysSJc3tNRUJUrNbo16_RYOTPRHJpOnHkROQZO6JwM>
+* Mnemoscene <https://mnemoscene.io/>
 * Consortium members <https://iiif.io/community/consortium/members/>
+* Community <https://iiif.io/community/>
 * IIIF Awesome- where to find the unusual things people have done <https://github.com/IIIF/awesome-iiif>
 * Towards a National Collection IIIF work <https://tanc-ahrc.github.io/IIIF-TNC/>
 * Cambridge University Digital Library <https://cudl.lib.cam.ac.uk/>
