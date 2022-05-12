@@ -16,12 +16,14 @@
 * <https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/calendars/CalendarCollection.json> (University Calendars)
 * <https://exhibitions.ed.ac.uk> (Exhibitions platform)
 
+
 #### Fun stuff
 * <https://librarylabs.ed.ac.uk/iiif/argyle-rooms> (Meeting rooms in Argyle House)
 * <https://collections.ed.ac.uk/mahabharata> (Mahabharata Scroll)
 * <https://uoe-iiif.github.io/iiif/mirador/?manifest=https://uoe-iiif.github.io/iiif/manifests/presimages.json> (Annotations example in Mirador)
 * <https://uoe-iiif.github.io/iiif/slider/slider.html> (Compare two versions of an image using a slider viewer)
 * <https://librarylabs.ed.ac.uk/iiif/av-player/> (AV example- defaults to the Argentina 78 manifest, but try dropping in "rhino", 4316, 2695 etc in manifests folder)
+* <http://universalviewer.io/uv.html?manifest=http://129.215.193.229/whiiif/resources/manifests/CSP-78> (UniversalViewer with a searchable manifest from the Session Papers collection)
 * <https://exhibitions.ed.ac.uk/exhibitions/walter-scott-revolution/the-revolutionary-past> (Slow Looking example)
 * <https://exhibitions.ed.ac.uk/exhibitions/sea-change/from-warship-to-research-vessel> (StorIIIes example)
 
@@ -96,3 +98,24 @@
 * `git commit -m "Comment"`
 * `git push origin master`
 * Pull request from your own repo into main repo
+
+
+
+### EXTERNAL LINKS
+* The main IIIF website <https://iiif.io>
+* What is IIIF? <https://iiif.io/community/faq/#what-is-iiif>
+* API list <https://iiif.io/api/index.html>
+* Image API v3 <https://iiif.io/api/image/3.0/>
+* Presentation API v3 <https://iiif.io/api/presentation/3.0/>
+* Universal Viewer <http://universalviewer.io>
+* Mirador <https://projectmirador.org>
+* OpenSeadragon <https://openseadragon.github.io>
+* 3D Charter <https://docs.google.com/document/d/13OysSJc3tNRUJUrNbo16_RYOTPRHJpOnHkROQZO6JwM>
+* Consortium members <https://iiif.io/community/consortium/members/>
+* IIIF Awesome- where to find the unusual things people have done <https://github.com/IIIF/awesome-iiif>
+* Towards a National Collection IIIF work <https://tanc-ahrc.github.io/IIIF-TNC/>
+* Cambridge University Digital Library <https://cudl.lib.cam.ac.uk/>
+* Digital Bodleain <https://digital.bodleian.ox.ac.uk/>
+* Biblissima <https://portail.biblissima.fr/en>
+* VIAF <https://viaf.org>
+* OAI-PMH example <https://aspaceoai.collections.ed.ac.uk/request?verb=ListRecords&metadataPrefix=oai_dc>
