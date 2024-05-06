@@ -42,6 +42,7 @@
 ### ArchivesSpace API
 * <https://www.postman.com/> (Postman tool)
 * <https://archivesspace.github.io/archivesspace/api/#introduction> (Guide to the API)
+* <https://github.com/archivesspace-labs/ArchivesSnake> (Client library for working with ArchivesSpace API)
 * <https://aspaceapi.collections.ed.ac.uk/users/apiread/login?password=xxxx> (Login- ask me for password)
 * <https://aspaceapi.collections.ed.ac.uk/repositories/2/archival_objects/180329> (Sample item)
 * <https://aspaceapi.collections.ed.ac.uk/subjects/28081> (Sample subject)
@@ -70,8 +71,7 @@
 ### Lyell Website 
 * <https://lyell.ed.ac.uk> (Pulling it all together)
 
-
-### Image API manipulation
+### IIIF - Image API manipulation
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
 * Have a look for an image. Any image, and look at the URL.
 * Example:
@@ -93,28 +93,8 @@
 <https://vanda.github.io/iiif-features/openSeadragon.html?iiifinfo=https://images.is.ed.ac.uk/luna/servlet/iiif/UoEecp~1~1~52980~140316/info.json>
 
 ### Manifests
-* Try out this manifest builder: 
-<https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifestbuild.php>
-
-
-
-### FURTHER THINGS TO TRY (OUTSIDE OF THE WORKSHOP)
-
-#### OpenSeaDragon in a webpage?
-* See <https://uoe-iiif.github.io/iiif/os/sr-test.html>
-* Create a simple webpage with html markup
-* Copy os/sr-test.html
-* Change the image to a LUNA one- using the /info.json
-* IIIF Elements described in <http://iiif.io/api/image/2.1/#image-information>
-* OS Elements described in <https://openseadragon.github.io/#browser-extension>
-
-#### Build from scratch?
-* Take the manifest you've just created
-* Find a LUNA manifest (syntax: 
-`https://images.is.ed.ac.uk/luna/servlet/iiif/m/[identifier]/manifest`
-* Elements described in <http://iiif.io/api/presentation/2.1/#resource-properties>
-* Copy out the canvas section replacing the canvas here
-* Put the manifest up into the git repository manifests folder
+* Go to <https://images.is.ed.ac.uk/luna/servlet> and do a search
+* Get the manifest from "Share"
 
 #### Show the manifest in UV
 * Copy the manifest URL and append it to: 
@@ -123,15 +103,6 @@
 #### Show the manifest in Mirador
 * Copy the manifest URL and append it to: 
 <https://uoe-iiif.github.io/iiif/mirador?manifest=>
-
-#### Add IIIF images from LUNA to Animal Crossing
-* If you have a Nintendo Switch, that is...
-* Follow the instructions at the link below
-<https://blogs.ed.ac.uk/dlam/2020/04/23/animal-crossing/>
-
-#### IIIF Server from Scratch
-* See the Cantaloupe website
-<https://medusa-project.github.io/cantaloupe/>
 
 #### This Git repository
 * If you have a git repo of your own, we will invite you to collaborate
@@ -143,16 +114,7 @@
 * `git push origin master`
 * Pull request from your own repo into main repo
 
-
-
-### EXTERNAL LINKS
-* The main IIIF website <https://iiif.io>
-* What is IIIF? <https://iiif.io/community/faq/#what-is-iiif>
-* API list <https://iiif.io/api/index.html>
-* Image API v3 <https://iiif.io/api/image/3.0/>
-* Presentation API v3 <https://iiif.io/api/presentation/3.0/>
-* Universal Viewer <http://universalviewer.io>
-* Mirador <https://projectmirador.org>
+### ADDITIONAL LINKS
 * OpenSeadragon <https://openseadragon.github.io>
 * 3D Charter <https://docs.google.com/document/d/13OysSJc3tNRUJUrNbo16_RYOTPRHJpOnHkROQZO6JwM>
 * Mnemoscene <https://mnemoscene.io/>
@@ -164,4 +126,3 @@
 * Digital Bodleain <https://digital.bodleian.ox.ac.uk/>
 * Biblissima <https://portail.biblissima.fr/en>
 * VIAF <https://viaf.org>
-* OAI-PMH example <https://aspaceoai.collections.ed.ac.uk/request?verb=ListRecords&metadataPrefix=oai_dc>
