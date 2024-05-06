@@ -4,51 +4,72 @@
 ### SLIDES 
 * <https://uoe.sharepoint.com/:p:/r/sites/LUCDigitalLibraryBAU/Shared%20Documents/Presentations/CDCSDataIntegrations.pptx?d=w39e0652401694125a308ea2596b8ca06&csf=1&web=1&e=gRLNya>
 
+### Archipelago
+* <https://archipelago.nyc/> (Where we are heading- not there yet)
+
 ### Content- museums
 * <https://collections.ed.ac.uk/mimed> (Musical Instruments Collection)
 * <https://collections.ed.ac.uk/art> (Art Collection)
-* <https://collections.ed.ac.uk/coimbra-colls> (External aggregator - European content)
+* <https://collections.ed.ac.uk/stcecilias> (St Cecilias Hall)
 
 ### Content- archives
 * <https://archives.collections.ed.ac.uk> (Main Archives site)
 * <https://collections.ed.ac.uk/eerc> (Oral histories)
-* <https://tobarandualchais.co.uk> (External site- collection of audio content)
+* <https://collections.ed.ac.uk/towardsdolly> (Genetics)
 
 ### Content- rare books
 * <https://discovered.ed.ac.uk> (Library Catalogue)
 * <https://collections.ed.ac.uk/speccoll> (Digitised Rare Books content)
 
+### Content- images
+* <https://images.is.ed.ac.uk > (Image repository)
+
 ### Making content available- collections as data
 * <https://collections.ed.ac.uk/collections-as-data> (Historical Theses and Scottish Statistical Accounts)
+* <https://collectionsmanager.is.ed.ac.uk> (Where the content is actually stored)
 * <https://lucyhavens.com/physically-encoding-collection-metadata> (Visualisations with MIMEd data)
+* <https://minim.ac.uk/> (MINIM site)
+
+### OAI-Harvesting
+* <https://mimo-international.com/MIMO> (Musical Instruments Museums Online)
+* <https://www.europeana.eu/en/search?query=europeana_collectionName%3A9200271%2A&source=reuse&view=grid> (Europeana Cloud)
+* <https://archiveshub.jisc.ac.uk/> (Archives Hub)
 
 ### Vernon API
-* <
+* <https://uoe-iiif.github.io/iiif/Vernon/Vernon%20CMS%20API%201.2.pdf> (Guide to the API)
 * <http://vernonapi.is.ed.ac.uk/vcms-api/oecgi4.exe/datafiles/OBJECT/?query=(updatedsince:"29%2004%202024" AND squery:"MIMEdSkylight")&fields=id,accession_no,ob_display,name,other_name,object_type,brief_desc,classification,collection,controlling_institution,cataloguer,cataloguer_notes,material,measure_desc,signature_date,prod_pri_person_name,prod_pri_person,prod_pri_role,prod_pri_person_gender,prod_pri_person_ethnicity,prod_pri_person_lifeyears,prod_pri_person_nationality,prod_pri_person_bio_display,prod_pri_technique,prod_pri_place,prod_pri_place_role,prod_pri_date,prod_pri_date_notes,prod_pri_earliest,prod_pri_latest,prod_pri_period,curr_owner,acq_notes,prov_notes,credit_line,physical_notes,sound,decoration_desc,pa_others_desc,subject_person,subject_role,subject_person_notes,subject_person_gender,subject_person_ethnicity,subject_place,subject_place_notes,subject_event,subject_event_notes,subject_period,subject_period_notes,subject_date,subject_object,subject_class,subject_class_notes,subject_notes,general_flag,av,av_primary_image,user_auth_mv1,user_auth_mv2,user_auth_mv3,user_auth_mv4,user_value_1,user_text_1,user_text_2,user_text_3,user_text_4,user_text_5,user_sym_1,user_sym_2,user_sym_3,user_sym_4,user_sym_5,user_sym_6,user_sym_7,user_sym_8,user_sym_9,user_sym_10,user_sym_11,user_sym_12,user_sym_13,user_sym_14,user_sym_15,user_sym_16,user_sym_17,user_sym_18,user_sym_19,user_sym_20,user_sym_21,user_sym_22,user_sym_23,user_sym_24,user_sym_25,user_sym_26,user_sym_27,user_sym_28,user_sym_29,user_sym_30,user_sym_31,user_sym_32,user_sym_33,user_sym_34,user_sym_35,user_sym_36,user_sym_37,user_sym_38,user_sym_39,user_sym_40,user_sym_41,user_sym_42,user_sym_43,user_sym_44,user_sym_45,user_sym_46,user_sym_47,user_sym_48,user_sym_49,user_sym_50,user_sym_51,user_sym_54,user_sym_55,user_sym_56,user_sym_57,prod_notes,prod_det_person,prod_det_role,user_auth_mv5,user_sym_59,user_sym_60,user_sym_58,av_notes,au_related,user_sym_61,user_sym_62,user_sym_63,user_sym_64,user_sym_66,usual_loc_being,usual_loc_external_being,user_sym_67,user_sym_68&limit=10000>
 
 ### ArchivesSpace API
 * <https://www.postman.com/> (Postman tool)
 * <https://archivesspace.github.io/archivesspace/api/#introduction> (Guide to the API)
-* <https://aspaceapi.collections.ed.ac.uk/users/apiread/login?password=Auxilium1> (Login)
+* <https://aspaceapi.collections.ed.ac.uk/users/apiread/login?password=xxxx> (Login- ask me for password)
 * <https://aspaceapi.collections.ed.ac.uk/repositories/2/archival_objects/180329> (Sample item)
 * <https://aspaceapi.collections.ed.ac.uk/subjects/28081> (Sample subject)
 
+### Alma API
+* <https://eu01.alma.exlibrisgroup.com/view/sru/44UOE_INST?version=1.2&operation=searchRetrieve&recordSchema=marcxml&query=alma.mms_id=9923254553502466> (MarcXML)
+* <https://discovered.ed.ac.uk/discovery/sourceRecord?vid=44UOE_INST:44UOE_VU2&docId=alma9923254553502466&recordOwner=44UOE_INST> (related DiscoverEd record)
 
+### LUNA API
+* <https://lunaimaging.atlassian.net/wiki/spaces/V75D/pages/655863/LUNA+API+Documentation> (Guide to the API)
+* <https://images.is.ed.ac.uk/luna/servlet/as/fetchMediaSearch> (Base endpoint)
+* <https://images.is.ed.ac.uk/luna/servlet/as/fetchMediaSearch?&lc=UoEart~2~2&fullData=false&bs=25&os=0&includeIiifManifest=true> (Example) 
 
-
-
-### Edinburgh- investigation and ad-hoc work
-* <https://librarylabs.ed.ac.uk/iiif/uv?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/AllContent.json> (All digitised content in one manifest)
-* <https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/LyellCollection.json> (Charles Lyell Notebooks in one manifest)
-* <https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/calendars/CalendarCollection.json> (University Calendars)
-* <https://librarylabs.ed.ac.uk/iiif/argyle-rooms> (Meeting rooms in Argyle House)
+### IIIF
+* <https://iiif.io> (Main site)
+* <https://iiif.io/api/image/3.0/> (Image API)
+* <https://iiif.io/api/presentation/3.0> (Presentation API)
+* <https://universalviewer.io> (Universal viewer)
+* <https://projectmirador.org> (Mirador viewer)
+* <https://cantaloupe-project.github.io/> (Cantaloupe image server)
+* <https://collections.ed.ac.uk/art/record/19504?highlight=*> (Example of collections record)
 * <https://collections.ed.ac.uk/mahabharata> (Mahabharata Scroll)
-* <https://uoe-iiif.github.io/iiif/mirador/?manifest=https://uoe-iiif.github.io/iiif/manifests/presimages.json> (Annotations example in Mirador)
-* <https://uoe-iiif.github.io/iiif/slider/slider.html> (Compare two versions of an image using a slider viewer)
-* <https://librarylabs.ed.ac.uk/iiif/av-player/> (AV example- defaults to the Argentina 78 manifest, but try dropping in "rhino", 4316, 2695 etc in manifests folder)
-* <http://universalviewer.io/uv.html?manifest=http://129.215.193.229/whiiif/resources/manifests/CSP-78> (UniversalViewer with a searchable manifest from the Session Papers collection)
-* <https://exhibitions.ed.ac.uk/exhibitions/walter-scott-revolution/the-revolutionary-past> (Slow Looking example)
-* <https://exhibitions.ed.ac.uk/exhibitions/sea-change/from-warship-to-research-vessel> (StorIIIes example)
+* <https://collections.ed.ac.uk/coimbra-colls> (Coimbra Collections)
+* <https://uoe-iiif.github.io/iiif/workshop> (Many more links about our use of IIIF)
+
+### Lyell Website 
+* <https://lyell.ed.ac.uk> (Pulling it all together)
+
 
 ### Image API manipulation
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
