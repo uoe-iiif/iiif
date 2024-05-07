@@ -76,6 +76,7 @@
 
 ### Lyell Website 
 * <https://lyell.ed.ac.uk> (Pulling it all together)
+* <https://github.com/uoemainlibrary/lyell-website> (Code!)
 
 ### IIIF - Image API manipulation
 * Go to <https://images.is.ed.ac.uk/luna/servlet>
