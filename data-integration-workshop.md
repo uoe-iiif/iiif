@@ -49,6 +49,8 @@
 * <https://aspaceapi.collections.ed.ac.uk/users/apiread/login?password=xxxx> (Login- ask me for password)
 * <https://aspaceapi.collections.ed.ac.uk/repositories/2/archival_objects/180329> (Sample item)
 * <https://aspaceapi.collections.ed.ac.uk/subjects/28081> (Sample subject)
+* <https://aspaceapi.collections.ed.ac.uk/repositories/2/search?page=1&aq={"jsonmodel_type":"field_query","field":{"must":[{"term":{"repository_processing_note":true}}]}}> (Search syntax)
+
 
 ### Alma API
 * <https://eu01.alma.exlibrisgroup.com/view/sru/44UOE_INST?version=1.2&operation=searchRetrieve&recordSchema=marcxml&query=alma.mms_id=9923254553502466> (MarcXML)
