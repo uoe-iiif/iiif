@@ -31,6 +31,8 @@
 * <https://minim.ac.uk/> (MINIM site)
 
 ### OAI-Harvesting
+* <https://aspaceoai.collections.ed.ac.uk/?verb=ListRecords&metadataPrefix=oai_dc> (Example ArchivesSpace)
+* <http://oai.clarin-pl.eu/> (Test bed)
 * <https://mimo-international.com/MIMO> (Musical Instruments Museums Online)
 * <https://www.europeana.eu/en/search?query=europeana_collectionName%3A9200271%2A&source=reuse&view=grid> (Europeana Cloud)
 * <https://archiveshub.jisc.ac.uk/> (Archives Hub)
@@ -55,6 +57,7 @@
 * <https://lunaimaging.atlassian.net/wiki/spaces/V75D/pages/655863/LUNA+API+Documentation> (Guide to the API)
 * <https://images.is.ed.ac.uk/luna/servlet/as/fetchMediaSearch> (Base endpoint)
 * <https://images.is.ed.ac.uk/luna/servlet/as/fetchMediaSearch?&lc=UoEart~2~2&fullData=false&bs=25&os=0&includeIiifManifest=true> (Example) 
+
 
 ### IIIF
 * <https://iiif.io> (Main site)
