@@ -29,6 +29,7 @@
 * <https://collectionsmanager.is.ed.ac.uk> (Where the content is actually stored)
 * <https://lucyhavens.com/physically-encoding-collection-metadata> (Visualisations with MIMEd data)
 * <https://minim.ac.uk/> (MINIM site)
+* <https://github.com/DCS-training/ScottishAccounts> (Lucia's visualisations)
 
 ### OAI-Harvesting
 * <https://aspaceoai.collections.ed.ac.uk/?verb=ListRecords&metadataPrefix=oai_dc> (Example ArchivesSpace)
